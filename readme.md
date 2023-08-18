@@ -1,1 +1,1 @@
-This repository will hold all diffeernt types of dev solutions
+This repository will hold all different types of dev solutions
