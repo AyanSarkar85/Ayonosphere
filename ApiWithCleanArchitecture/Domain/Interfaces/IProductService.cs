@@ -1,13 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Models;
 
 namespace Domain.Interfaces
 {
     public interface IProductService
     {
+        IEnumerable<Product> GetAllProducts();
 
+        //Product GetProduct(int id);
+
+        bool InsertNewProduct(Product product);
+
+        bool UpdateProduct(Product product);
+
+        bool DeleteProduct(int id);
     }
 }
